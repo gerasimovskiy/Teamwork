@@ -1,0 +1,50 @@
+/*menu*/
+body{
+	background: #fffdc9;
+}
+
+.menu-main{
+	padding: 20px;
+	width: 60%;
+	margin: auto;
+	font-family: 'roboto';
+	
+}
+
+.menu-main-header img{
+	height:150px;
+}
+
+.menu-main-header{
+	text-align: center;
+}
+
+.menu-section{
+	column-count:2;
+	column-rule-style: solid;
+	column-rule-width: 1px;
+	column-rule-color: red;
+}
+
+hr{
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+	
+}
+
+.menu-main h2{
+	text-align: center;
+}
+
+.main-home {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height:200px;
+}
+
+.main-home img{
+	width: 200px;
+}
