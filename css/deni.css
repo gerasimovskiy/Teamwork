@@ -26,13 +26,14 @@ font-size: 45px;
 font-weight: 700;
 margin-top: 210px;
 color: #00669E;
-text-shadow: 1px white;
+text-shadow: 2px 2px 2px white;
 }
 .onefood__titletwo,
 .twofood__titletwo {
 	margin: 30px auto 0 auto;
 	font-size: 25px;
 	width: 90%;
+	text-shadow: 2px 2px 2px black;
 	
 }
 .onefood__button,
