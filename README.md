@@ -13,15 +13,7 @@ git clone [url вашего репозитория на GitHub]
 Используем font-family: 'roboto'. Из font.css берем font-weight и font-style.
 Картинки из макета я сохранила в img. Если какие-то еще будете использовать, сохраняйте там же.
 У кнопочек-ссылок на menu ставим href="menu.html".
-Один из элемнтов должен иметь цвет #fffdc9
-
-	<header></header>						- lnikolaenko
-	<section class="welcome"></section>		- jeniatrofimenko
-	<section class="about"></section>		- jeniatrofimenko
-	<section class="food"></section>		- deni
-	<section class="gallery"></section>		- deni
-	<section class="contact"></section>		-  
-	menu.html  								- ashmitya
+Один из элемнтов должен иметь цвет #fbd149
 
 5. Если что-то не получается и нужна помощь, отправляем файлы в свой репозиторий и пишем о проблеме в slack.
 git add .
