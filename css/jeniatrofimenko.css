@@ -97,4 +97,11 @@ li{
 	line-height: 28px;
 	list-style-type: circle;
 }
-
+.about:after{
+	content: "";
+	clear: both;
+}
+.welcome:after{
+	content: "";
+	clear: both;
+}
