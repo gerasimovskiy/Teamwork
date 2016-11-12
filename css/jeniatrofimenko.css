@@ -3,6 +3,7 @@
     height: 600px;
     margin: auto;
     margin-bottom:4%;
+    position: relative;
 }
 .f1{
 	background-image: url('../img/background_03.png');
@@ -28,40 +29,28 @@
 	background-image: url('../img/lupa.png');
 	width : 60px;
 	height: 60px;
-	position: absolute;
 	display: none;
 }
 .f1:hover .logof{
-	background-image: url('../img/lupa.png');
-	width : 60px;
-	height: 60px;
 	position: absolute;
+	top: 120px;
+	left: 300px;
 	display: block;
-	margin-left: 18%;
-	margin-top: 5%;
-
 }
 .logos{
 	background-image: url('../img/lupa.png');
 	width : 60px;
 	height: 60px;
-	position: absolute;
-	float: right;
 	display: none;
 }
 .f2:hover .logos{
-	background-image: url('../img/lupa.png');
-	width : 60px;
-	height: 60px;
 	position: absolute;
+	top: 120px;
+	right: 300px;
 	display: block;
-	float: right;
-	opacity: 1;
-	margin-left: 18%;
-	margin-top: 5%;
-	}
+}
 .f3{
-	background-image: url(../img/background_08.png);
+	background-image: url('../img/background_08.png');
 	background-size: 600px 300px;
 	height: 300px;
 	width: 600px;
@@ -71,230 +60,179 @@
 	background-image: url('../img/lupa.png');
 	width : 60px;
 	height: 60px;
-	position: absolute;
-	float: left;
 	display: none;
 }
 /*.f3:hover{
 	opacity: 0.7;
 }*/
 .f3:hover .logot{
-	background-image: url('../img/lupa.png');
-	width : 60px;
-	height: 60px;
 	position: absolute;
+	bottom: 120px;
+	left: 300px;
 	display: block;
-	float: right;
-	opacity: 1;
-	margin-left: 19%;
-	margin-top: 10%;
 	}
 .f4{
-	background-image: url(../img/background_10.png);
+	background-image: url('../img/background_10.png');
 	background-size: 600px 300px;
 	height: 300px;
 	width: 600px;
-	float: left;
+	float: right;
 }
 .logof{
 	background-image: url('../img/lupa.png');
 	width : 60px;
 	height: 60px;
-	position: absolute;
-	float: left;
 	display: none;
 }
 /*.f4:hover{
 	opacity: 0.7;
 }*/
 .f4:hover .logof{
-	background-image: url('../img/lupa.png');
-	width : 60px;
-	height: 60px;
 	position: absolute;
+	bottom: 120px;
+	right: 300px;
 	display: block;
-	float: right;
-	opacity: 1;
-	margin-left: 19%;
-	margin-top: 10%;
 	}
 .left{
 	position: absolute;
-	background-image: url(../img/background_sides_03.png);
-	background-size: 315px 602px;
+	top: 0;
+	left: 0;
+	background-image: url('../img/background_sides_03.png');
+	background-size: 300px 600px;
 	height: 600px;
 	width: 300px;
-	float: left;
 }
 .logo_left{
 	background-image: url('../img/lupa.png');
 	width : 60px;
 	height: 60px;
-	position: absolute;
-	float: left;
 	display: none;
 }
 /*.left:hover{
 	opacity: 0.7;
 }*/
 .left:hover .logo_left{
-	background-image: url('../img/lupa.png');
-	width : 60px;
-	height: 60px;
 	position: absolute;
+	top: 270px;
+	left: 120px;
 	display: block;
-	float: right;
-	opacity: 1;
-	margin-left: 30%;
-	margin-top: 95%;
-	}
-	.right{
+}
+.right{
 	position: absolute;
-	background-image: url(../img/background_sides_07.png);
-	background-size: 318px 630px;
+	top: 0;
+	right: 0;
+	background-image: url('../img/background_sides_07.png');
+	background-size: 300px 600px;
 	height: 600px;
 	width: 300px;
-	margin-left: 62.4%;
-	margin-top:-1.09%; 
-	float: right;
 }
 .logo_right{
 	background-image: url('../img/lupa.png');
 	width : 60px;
 	height: 60px;
-	position: absolute;
-	float: left;
 	display: none;
 }
 /*.right:hover{
 	opacity: 0.7;
 }*/
 .right:hover .logo_right{
-	background-image: url('../img/lupa.png');
-	width : 60px;
-	height: 60px;
 	position: absolute;
+	top: 270px;
+	right: 120px;
 	display: block;
-	float: right;
-	opacity: 1;
-	margin-left: 30%;
-	margin-top: 95%;
-	}
-	#logo{
+}
+#logo{
+	direction: block;
+	width: 400px;
+	height: 400px;
     position: absolute;
-    margin-top: 4%;
-	left: 35%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
 .fi{
 	background-image: url('../img/1.jpg');
 	width: 1200px;
 	height:600px;
 	position: absolute;
+	top: 0;
+	left: 0;
 	z-index: 23;
 	display: none;
 }
 .f1:active .fi{
-	background-image: url('../img/1.jpg');
-	width: 1200px;
-	height:600px;
-	position: absolute;
-	z-index: 23;
 	display: block;
 }
-.fa{
-	background-image: url('../img/1.jpg');
-	width: 1200px;
-	height:600px;
-	position: absolute;
-	z-index: 23;
-	display: none;
-}
-.f2:active .fa{
+.fb{
 	background-image: url('../img/2.jpg');
 	width: 1200px;
 	height:600px;
 	position: absolute;
+	top: 0;
+	right: 0;
 	z-index: 23;
+	display: none;
+}
+.f2:active .fb{
 	display: block;
-	margin-left: -41.6%;
 }
 .fr{
 	background-image: url('../img/3.jpg');
 	width: 1200px;
 	height:600px;
 	position: absolute;
+	top: 0;
+	left: 0;
 	z-index: 23;
 	display: none;
 }
 .f3:active .fr{
-	background-image: url('../img/3.jpg');
-	width: 1200px;
-	height:600px;
-	position: absolute;
-	z-index: 23;
 	display: block;
-	margin-top:-20.9%;
-	margin-left:0;
 }
 .fg{
 	background-image: url('../img/4.jpg');
 	width: 1200px;
 	height:600px;
 	position: absolute;
+	top: 0;
+	right: 0;
 	z-index: 23;
 	display: none;
 }
 .f4:active .fg{
-	background-image: url('../img/4.jpg');
-	width: 1200px;
-	height:600px;
-	position: absolute;
-	z-index: 23;
 	display: block;
-	margin-top:-20.9%;
-	margin-left:-41.6%;
-
 }
 .fl{
 	background-image: url('../img/l.jpg');
 	width: 1200px;
 	height:600px;
 	position: absolute;
+	top: 0;
+	left: 0;
 	z-index: 23;
 	display: none;
 }
 .left:active .fl{
-	background-image: url('../img/l.jpg');
-	width: 1200px;
-	height:600px;
-	position: absolute;
-	z-index: 23;
 	display: block;
-	margin-top:0%;
-
-
 }
 .fn{
 	background-image: url('../img/r.jpg');
 	width: 1200px;
 	height:600px;
 	position: absolute;
+	top: 0;
+	right: 0;
 	z-index: 23;
 	display: none;
 }
 .right:active .fn{
-	background-image: url('../img/r.jpg');
-	width: 1200px;
-	height:600px;
-	position: absolute;
-	z-index: 23;
 	display: block;
-	margin-top:5%;
-	margin-left: -300%;
 }
 .about{
 	width: 1200px;
-	height: 600px;
+	height: 500px;
 	margin: auto;
 }
 .about_image{
@@ -306,7 +244,7 @@
 	float: left;
 }
 #this{
-	font-family: roboto;
+	font-family: 'roboto';
 	margin-right: 28%;
 	color:#fbd149;
 	float: right;
@@ -314,7 +252,7 @@
 #text{
 	padding-top: 4%;
 	margin-left: 66%;
-	font-family: roboto;
+	font-family: 'roboto';
 	color: #7f7f7f;
 }
 li{
@@ -331,4 +269,3 @@ li{
 	content: "";
 	clear: both;
 }
-
