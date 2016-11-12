@@ -16,8 +16,10 @@
 	font-size: 16px;
 	color: black;
 	font-family: 'roboto';
-	line-height: 20px;
-	
+	line-height: 24px;
+}
+.header__adress span{
+	font-weight: bold
 }
 .header__social{
 	display: inline-block;
@@ -58,10 +60,11 @@
 .anchors__disk p{
 	font-size: 16px;
 	font-family: 'roboto';
+	font-weight: bold;
 	text-align: center;
 	line-height: 60px;
 	color: black;
-	opacity: 0.2;
+	opacity: 0.1;
 }
 .anchors__disk:hover p{
 	opacity: 1;
