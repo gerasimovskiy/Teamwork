@@ -1,0 +1,99 @@
+*{
+	transition: all 0.2s ease;
+}
+.header__wrapper{
+	width: 1200px;
+	margin: 0 auto;
+	font-size: 0;
+}
+.adress_social{
+	display: inline-block;
+	vertical-align: top;
+	width: 250px;
+}
+.header__adress{
+	margin: 15px;
+	font-size: 16px;
+	color: black;
+	font-family: 'roboto';
+	line-height: 20px;
+	
+}
+.header__social{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 24px;
+	color: #aed19b;
+	text-decoration: none;
+	margin: 15px 15px;
+}
+.header__social:hover{
+	color: #fbd149;
+}
+.anchors{
+	display: inline-block;
+	vertical-align: top;
+	width: 800px;
+	font-size: 0;
+}
+.anchors__plate{
+	display: inline-block;
+	vertical-align: top;
+	width: 100px;
+	height: 100px;
+	margin: 50px;
+	border-radius: 50px;
+	background: #fff798;
+
+}
+.anchors__disk{
+	display: block;
+	width: 60px;
+	height: 60px;
+	margin: 20px;
+	border-radius: 30px;
+	background: #fffdca;
+	text-decoration: none;
+}
+.anchors__disk p{
+	font-size: 16px;
+	font-family: 'roboto';
+	text-align: center;
+	line-height: 60px;
+	color: black;
+	opacity: 0.2;
+}
+.anchors__disk:hover p{
+	opacity: 1;
+}
+.menu_page{
+	display: inline-block;
+	vertical-align: top;
+	width: 150px;
+}
+.menu_page__book{
+	display: block;
+	width: 100px;
+	height: 130px;
+	margin: 25px;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	font-family: 'roboto';
+	font-size: 24px;
+	text-align: center;
+	background: #aed19b;
+}
+.menu_page__name{
+	padding-top: 50px;
+	background: white;
+	height: 80px;
+}
+.menu_page__line{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+	width: 60px;
+	border-top: 2px solid #aed19b;
+
+}
