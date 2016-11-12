@@ -1,0 +1,141 @@
+/*FOOD*/
+
+.food {
+	width: 1200px;
+	height: 600px;
+	margin: 0 auto;
+	font-family: 'roboto', sans-serif;
+	color: white;
+	font-size: 0;
+	text-align: center;
+}
+.onefood {
+	width: 49%;
+	height: 600px;
+	display: inline-block;
+	/*padding-top: 300px;*/
+	background: url(../img/food1.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+.onefood__titleone,
+.twofood__titleone {
+font-size: 45px;
+font-weight: 700;
+margin-top: 210px;
+color: #00669E;
+}
+.onefood__titletwo,
+.twofood__titletwo {
+	margin: 30px auto 0 auto;
+	font-size: 25px;
+	width: 90%;
+	
+}
+.onefood__button,
+.twofood__button {
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 25px;
+	margin-top: 70px;
+	text-decoration: none;
+	outline: none;
+	color: #fffdc9;
+	border: 3px solid #FFFDC9;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
+	text-transform: uppercase;
+}
+.onefood__button:hover {
+	color: #FF9400;
+	border-color: #FF9400;
+}
+.twofood__button:hover {
+	color: #FF9400;
+	border-color: #FF9400;
+}
+.twofood {
+	width: 50%;
+	height: 600px;
+	display: inline-block;
+	/*padding-top: 300px;*/
+	background: url(../img/food3.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+/*Instagramm gallery*/
+
+.gallery {
+	width: 1200px;
+	margin: 0 auto;
+	height: 600px;
+	font-family: 'roboto', sans-serif;
+}
+.gallery__h {
+	margin-top: 50px;
+	font-size: 45px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-align: center;
+	color: #009BAE;
+}
+.gallery__link {
+	text-align: center;
+	font-size: 20px;
+	margin: 10px 0;
+	font-weight: 700;
+}
+.gallery__link a {
+	color: black;
+}
+.gallery__link:hover a {
+	text-decoration: none;
+	color: #FF9400;
+}
+.gallery-img-one,
+.gallery-img-two,
+.gallery-img-three,
+.gallery-img-four,
+.gallery-img-five,
+.gallery-img-six {
+	float: left;
+	padding: 10px;
+}
+.gallery-img-one img{
+	width: 300px;
+}
+.gallery-img-two img{
+	width: 540px;
+	height: 535px;
+}
+.gallery-img-three img {
+	width: 300px;
+	height: 297px;
+	
+}
+.gallery-img-four img {
+	width: 300px;
+	position: relative;
+	top: -243px;
+}
+.gallery-img-five img {
+	width: 300px;
+	height: 223px;
+	top: -243px;
+	position: relative;
+}
+.gallery-img-six img {
+	width: 650px;
+	
+}
+.gallery-img-six {
+	margin-top: 555px;
+	margin-left: 230px;
+	position: absolute;
+}
