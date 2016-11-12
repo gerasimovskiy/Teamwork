@@ -5,9 +5,22 @@
 }
 
 .contact h1{
-	text-align:center
+	text-align:center;
+	font-weight: bold;
+}
+
+.contact h2{
+	font-weight: bold;
+}
+
+.contact img{
+	width: 30px;
+	vertical-align:middle;
 }
 
 .contact__left, .contact__right{
-	width:50%;
+	width:45%;
+	text-align:center;
+	display:inline-block;
+	vertical-align: middle;
 }
